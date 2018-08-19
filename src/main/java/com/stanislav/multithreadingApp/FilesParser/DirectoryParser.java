@@ -25,10 +25,11 @@ public class DirectoryParser {
             for(File file: files){
                 if(file.isFile()){
                     es.execute(()->{
-                        String path = file.getPath();
-                        int index = path.lastIndexOf('.');
-                        System.out.println("Имя файла - " + file.getName() + "\t" + "Расширение файла - " +
-                                path.substring(index + 1) + "\t" + "Размер файла - " + file.length() + " байт" + "\t" +
+                        String name = file.getName();
+                        int index = name.lastIndexOf('.');
+
+                        System.out.println("Имя файла - " + name.substring(0, index) + "\t" + "Расширение файла - " +
+                                name.substring(index + 1) + "\t" + "Размер файла - " + file.length() + " байт" + "\t" +
                                 "Поток выполнения: " + Thread.currentThread().getName());
                         countFiles.getAndIncrement();
                     });
