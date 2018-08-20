@@ -1,11 +1,9 @@
-package main.java.com.stanislav.multithreadingApp.view;
+package main.java.com.stanislav.multithreadingapp.view;
 
-import main.java.com.stanislav.multithreadingApp.FilesParser.DirectoryParser;
-import main.java.com.stanislav.multithreadingApp.exceptions.DirectoryIsEmptyException;
+import main.java.com.stanislav.multithreadingapp.filesparser.DirectoryParser;
+import main.java.com.stanislav.multithreadingapp.exceptions.DirectoryIsEmptyException;
 
 import java.io.File;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.Scanner;
 
 public class ConsoleHelper {

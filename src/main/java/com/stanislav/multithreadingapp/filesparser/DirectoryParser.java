@@ -1,6 +1,6 @@
-package main.java.com.stanislav.multithreadingApp.FilesParser;
+package main.java.com.stanislav.multithreadingapp.filesparser;
 
-import main.java.com.stanislav.multithreadingApp.exceptions.DirectoryIsEmptyException;
+import main.java.com.stanislav.multithreadingapp.exceptions.DirectoryIsEmptyException;
 
 import java.io.File;
 import java.util.concurrent.ExecutorService;

@@ -1,6 +1,6 @@
-package main.java.com.stanislav.multithreadingApp;
+package main.java.com.stanislav.multithreadingapp;
 
-import main.java.com.stanislav.multithreadingApp.view.ConsoleHelper;
+import main.java.com.stanislav.multithreadingapp.view.ConsoleHelper;
 
 public class AppRunner {
 
